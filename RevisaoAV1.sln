@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revisao", "Revisao\Revisao.csproj", "{0121983B-B863-4F15-9062-1905A769AEF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevisaoAV1Tests", "RevisaoAV1Tests\RevisaoAV1Tests.csproj", "{73D682E8-2631-463C-9CF3-DE61366E831D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0121983B-B863-4F15-9062-1905A769AEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0121983B-B863-4F15-9062-1905A769AEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0121983B-B863-4F15-9062-1905A769AEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0121983B-B863-4F15-9062-1905A769AEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D682E8-2631-463C-9CF3-DE61366E831D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D682E8-2631-463C-9CF3-DE61366E831D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D682E8-2631-463C-9CF3-DE61366E831D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D682E8-2631-463C-9CF3-DE61366E831D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FEEB3F8-BAB2-40BA-99FB-94AC621D7163}
+	EndGlobalSection
+EndGlobal
