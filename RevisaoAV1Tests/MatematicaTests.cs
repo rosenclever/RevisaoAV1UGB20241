@@ -1,3 +1,5 @@
+using Revisao;
+
 namespace RevisaoAV1Tests
 {
     [TestClass]
@@ -11,6 +13,7 @@ namespace RevisaoAV1Tests
             int fatCalculado = fat.CalculoFatorial(num1);
             Assert.AreEqual(120, fatCalculado);
         }
+
         [TestMethod]
         public void FibonacciTest()
         {
@@ -27,8 +30,8 @@ namespace RevisaoAV1Tests
             int num2 = -3;
             int num3 = -54;
             int[] raizesEsperadas = {-6, 9 };
-            int[] raizesOrdenadas = Baskara.CalculoRaiz1(num1, num2, num3);
-            Assert.AreEqual(raizesEsperadas, raizesOrdenadas);
+            int[] raizesOrdenadas = Baskara.CalculoRaizes(num1, num2, num3);
+            CollectionAssert.AreEqual(raizesEsperadas, raizesOrdenadas);
         }
     }
 }
